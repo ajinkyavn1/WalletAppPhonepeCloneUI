@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.Wallet">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:background="@color/purple_500"
+       android:layout_gravity="center"
+       android:layout_height="match_parent">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical"
+           android:gravity="center">
+           <com.google.android.material.card.MaterialCardView
+               android:layout_width="350dp"
+               android:layout_height="wrap_content"
+               android:elevation="50dp"
+               android:translationZ="200dp"
+               app:cardMaxElevation="2500dp"
+               app:cardCornerRadius="35dp"
+               app:cardElevation="100dp">
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical"
+                   >
+                   <com.google.android.material.textview.MaterialTextView
+                       android:layout_width="match_parent"
+                       android:layout_marginTop="20dp"
+                       android:layout_height="wrap_content"
+                       android:text="Wallet Balance"
+                       android:textColor="@color/black"
+                       android:textSize="30dp"
+                       android:gravity="center"
+                       />
+                   <com.google.android.material.textview.MaterialTextView
+                       android:layout_width="match_parent"
+                       android:id="@+id/WalletMoney"
+                       android:layout_height="wrap_content"
+                       android:text="₹ 00.00"
+                       android:textColor="@color/black"
+                       android:textSize="35dp"
+                       android:gravity="center"
+                       />
+                   <LinearLayout
+                       android:layout_marginTop="50dp"
+                       android:layout_width="match_parent"
+                       android:layout_marginEnd="5dp"
+                       android:layout_marginStart="5dp"
+                       android:layout_gravity="center"
+                       android:layout_marginBottom="20dp"
+                       android:gravity="center"
+                       android:layout_height="wrap_content"
+                       android:orientation="horizontal">
+                       <com.google.android.material.button.MaterialButton
+                           android:layout_width="125dp"
+                           android:id="@+id/Addmoney"
+                           android:layout_height="wrap_content"
+                           android:text="ADD Money"
+                           />
+
+                       <com.google.android.material.button.MaterialButton
+                           android:id="@+id/Transactions"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_marginLeft="10dp"
+                           android:text="Transactions" />
+                   </LinearLayout>
+               </LinearLayout>
+           </com.google.android.material.card.MaterialCardView>
+       </LinearLayout>
+   </RelativeLayout>
+
+</FrameLayout>

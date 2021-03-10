@@ -18,10 +18,9 @@ public class Splash_Scereen extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                setContentView(R.layout.activity_main);
                 startActivity(new Intent(getApplicationContext(), MainActivity.class));
                 finish();
             }
-        },5000);
+        },2000);
     }
 }

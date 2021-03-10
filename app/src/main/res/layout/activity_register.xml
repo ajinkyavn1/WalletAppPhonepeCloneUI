@@ -11,11 +11,13 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
+
         android:orientation="vertical">
         <androidx.cardview.widget.CardView
             android:layout_width="350dp"
             android:layout_height="wrap_content"
             android:elevation="500dp"
+
             app:cardCornerRadius="35dp"
 
             android:translationZ="900dp">
@@ -29,6 +31,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Register"
+
                     android:fontFamily="sans-serif"
                     android:textSize="30dp"
                     android:textColor="@color/black"
