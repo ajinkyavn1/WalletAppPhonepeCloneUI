@@ -81,10 +81,9 @@ public class DashBord extends AppCompatActivity {
 
 
     private void loadFrag(Fragment fragment) {
-            FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-            transaction.replace(R.id.frame, fragment);
-            transaction.addToBackStack(null);
-            transaction.commit();
+             getSupportFragmentManager().beginTransaction()
+            .replace(R.id.frame, fragment)
+             .commit();
 
     }
 
