@@ -9,10 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.WalletAppPhonePeClone">
-        <activity android:name=".Activityw.DashBord"></activity>
-        <activity
-            android:name=".Activityw.Register"
-           />
+        <activity android:name=".Activityw.Add_Money"></activity>
+        <activity android:name=".Activityw.DashBord" />
+        <activity android:name=".Activityw.Register" />
         <activity
             android:name=".Activityw.Splash_Scereen"
             android:theme="@style/Theme.MaterialComponents.NoActionBar">
@@ -22,9 +21,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".MainActivity"
-            />
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>
