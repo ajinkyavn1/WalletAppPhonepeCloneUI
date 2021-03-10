@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_500"
+    tools:context=".Activityw.Add_Money">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:elevation="80dp"
+        app:cardCornerRadius="20dp"
+        android:translationZ="500dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+
+            android:layout_width="382dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:text="Add money "/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="35dp"
+                    android:text="₹"/>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/input_layout_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:hint="Enter The Amount">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/UPI"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/ic_profile_con"
+                    android:drawableTint="@color/purple_500" />
+            </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="₹ ADD Money"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="40dp" />
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+
+</RelativeLayout>
