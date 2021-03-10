@@ -48,7 +48,7 @@
                 android:id="@+id/input_layout_password"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-
+                android:inputType="number"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="20dp"
@@ -58,6 +58,7 @@
                     android:id="@+id/UPI"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:inputType="number"
                     android:drawableRight="@drawable/ic_profile_con"
                     android:drawableTint="@color/purple_500" />
             </com.google.android.material.textfield.TextInputLayout>
@@ -68,6 +69,8 @@
                 android:layout_gravity="center"
                 android:gravity="center"
                 android:text="₹ ADD Money"
+
+                android:id="@+id/Addmoney"
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="40dp" />
         </LinearLayout>
