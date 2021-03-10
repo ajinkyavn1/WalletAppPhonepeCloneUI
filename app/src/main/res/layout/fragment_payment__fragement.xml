@@ -3,12 +3,79 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/purple_500"
     tools:context=".Fragments.Payment_Fragement">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:translationY="50dp"
+    android:orientation="vertical">
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_marginLeft="20dp"
+            android:elevation="80dp"
+            app:cardCornerRadius="20dp"
+            android:translationZ="500dp"
+            android:layout_marginRight="20dp"
+            android:layout_height="150dp">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+            <LinearLayout
+
+                android:layout_width="382dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/input_layout_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:hint="Ente Mobile No OR UPI">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/UPI"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableRight="@drawable/ic_profile_con"
+                        android:drawableTint="@color/purple_500" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Pay"
+                    android:translationY="10dp" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="50dp"
+                    android:gravity="center"
+                    android:text="OR"
+                    android:textSize="35dp" />
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_marginTop="50dp"
+        android:layout_height="260dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/QR"/>
+
+    </com.google.android.material.card.MaterialCardView>
+</LinearLayout>
 
 </FrameLayout>

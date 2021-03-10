@@ -23,6 +23,7 @@
                android:elevation="50dp"
                android:translationZ="200dp"
                app:cardMaxElevation="2500dp"
+
                app:cardCornerRadius="35dp"
                app:cardElevation="100dp">
                <LinearLayout
@@ -72,6 +73,39 @@
                            android:layout_marginLeft="10dp"
                            android:text="Transactions" />
                    </LinearLayout>
+               </LinearLayout>
+           </com.google.android.material.card.MaterialCardView>
+           <com.google.android.material.card.MaterialCardView
+               android:layout_width="350dp"
+               android:layout_height="wrap_content"
+               android:elevation="50dp"
+               android:translationY="20dp"
+               android:translationZ="200dp"
+               app:cardMaxElevation="2500dp"
+               app:cardCornerRadius="35dp"
+               app:cardElevation="100dp">
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical"
+                   android:layout_marginBottom="40dp"
+                   >
+                   <com.google.android.material.textview.MaterialTextView
+                       android:layout_width="match_parent"
+                       android:layout_marginTop="20dp"
+                       android:layout_height="wrap_content"
+                       android:text="My QR Code"
+                       android:textColor="@color/black"
+                       android:textSize="30dp"
+                       android:gravity="center"
+                       />
+                   <ImageView
+                       android:layout_width="match_parent"
+                       android:layout_height="250dp"
+                       android:layout_marginTop="10dp"
+                       android:id="@+id/MYQR"
+                       android:src="@drawable/qrcode"/>
+
                </LinearLayout>
            </com.google.android.material.card.MaterialCardView>
        </LinearLayout>
