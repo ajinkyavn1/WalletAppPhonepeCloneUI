@@ -10,6 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
+        android:layout_margin=""
         >
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/circleImageView"
@@ -33,6 +34,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_marginTop="25dp"
+            android:layout_margin=""
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
@@ -45,6 +47,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical"
+                    android:layout_margin=""
                     android:layout_gravity="center"
                     android:gravity="center"
                     >
@@ -53,13 +56,6 @@
                         android:layout_height="wrap_content"
                         android:src="@drawable/ic_upi"/>
 
-                    <com.google.android.material.textview.MaterialTextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="10dp"
-                        android:text="UPI ID"
-                        android:gravity="center"
-                        android:textSize="16dp"/>
                     <com.google.android.material.textview.MaterialTextView
                         android:layout_width="match_parent"
                         android:layout_marginTop="5dp"
@@ -87,13 +83,6 @@
                         android:layout_height="wrap_content"
                         android:src="@drawable/ic_gmail"/>
 
-                    <com.google.android.material.textview.MaterialTextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="10dp"
-                        android:text="Email ID"
-                        android:gravity="center"
-                        android:textSize="16dp"/>
                     <com.google.android.material.textview.MaterialTextView
                         android:layout_width="match_parent"
                         android:layout_marginTop="5dp"
@@ -129,13 +118,6 @@
                         android:layout_height="wrap_content"
                         android:src="@drawable/ic_smartphone"/>
 
-                    <com.google.android.material.textview.MaterialTextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="10dp"
-                        android:text="Mobile No"
-                        android:gravity="center"
-                        android:textSize="16dp"/>
                     <com.google.android.material.textview.MaterialTextView
                         android:layout_width="match_parent"
                         android:layout_marginTop="5dp"
