@@ -82,6 +82,7 @@
                android:translationY="20dp"
                android:translationZ="200dp"
                app:cardMaxElevation="2500dp"
+
                app:cardCornerRadius="35dp"
                app:cardElevation="100dp">
                <LinearLayout
@@ -99,12 +100,13 @@
                        android:textSize="30dp"
                        android:gravity="center"
                        />
+
                    <ImageView
+                       android:id="@+id/MYQR"
                        android:layout_width="match_parent"
                        android:layout_height="250dp"
                        android:layout_marginTop="10dp"
-                       android:id="@+id/MYQR"
-                       android:src="@drawable/qrcode"/>
+                       android:src="@drawable/qrcode" />
 
                </LinearLayout>
            </com.google.android.material.card.MaterialCardView>
