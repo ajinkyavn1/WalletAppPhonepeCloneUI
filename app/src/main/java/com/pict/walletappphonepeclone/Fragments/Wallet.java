@@ -48,7 +48,7 @@ public class Wallet extends Fragment implements View.OnClickListener {
         Transactions.setOnClickListener(this);
         MultiFormatWriter wr=new MultiFormatWriter();
         try {
-            BitMatrix bt=wr.encode("9881211594", BarcodeFormat.QR_CODE,350,350);
+            BitMatrix bt=wr.encode("9881211594", BarcodeFormat.QR_CODE,1450,750);
             BarcodeEncoder barcodeEncoder=new BarcodeEncoder();
             Bitmap bitmap=barcodeEncoder.createBitmap(bt);
             Barcode.setImageBitmap(bitmap);
