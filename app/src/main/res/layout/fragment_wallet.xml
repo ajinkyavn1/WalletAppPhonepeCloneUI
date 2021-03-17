@@ -81,7 +81,6 @@
                android:elevation="50dp"
                android:translationY="20dp"
                android:translationZ="200dp"
-               app:cardMaxElevation="2500dp"
                 android:layout_marginBottom="20dp"
                app:cardCornerRadius="35dp"
                app:cardElevation="100dp">
@@ -89,7 +88,7 @@
                    android:layout_width="match_parent"
                    android:layout_height="wrap_content"
                    android:orientation="vertical"
-                   android:layout_marginBottom="10dp"
+                   android:layout_marginBottom="50dp"
                    >
                    <com.google.android.material.textview.MaterialTextView
                        android:layout_width="match_parent"

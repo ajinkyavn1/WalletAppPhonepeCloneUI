@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.pict.walletappphonepeclone">
-    <uses-permission android:name="android.permission.CAMERA"/>
-    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -11,7 +12,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.WalletAppPhonePeClone">
-        <activity android:name=".Activityw.Add_Money"></activity>
+        <activity android:name=".Activityw.Payment"></activity>
+        <activity android:name=".Activityw.Add_Money" />
         <activity android:name=".Activityw.DashBord" />
         <activity android:name=".Activityw.Register" />
         <activity

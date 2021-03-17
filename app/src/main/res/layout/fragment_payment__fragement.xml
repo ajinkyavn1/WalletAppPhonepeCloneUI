@@ -50,6 +50,7 @@
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:text="Pay"
+                    android:id="@+id/Pay"
                     android:translationY="10dp" />
 
                 <com.google.android.material.textview.MaterialTextView
