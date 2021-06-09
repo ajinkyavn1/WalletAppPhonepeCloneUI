@@ -51,7 +51,6 @@ public class Payment_Fragement extends Fragment {
         PAY=view.findViewById(R.id.Pay);
         scanner();
 
-
         PAY.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

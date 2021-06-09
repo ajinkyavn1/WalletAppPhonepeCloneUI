@@ -36,8 +36,10 @@ public class MainActivity extends AppCompatActivity  {
     }
 
     private void login() {
-        startActivity(new Intent(getApplicationContext(), DashBord.class));
-        finish();
+//        startActivity(new Intent(getApplicationContext(), DashBord.class));
+//        finish();
+
+
     }
 
 
